@@ -1,0 +1,147 @@
+@media only screen and (max-width: 1024px) {
+    .excol-5, .excol-6, .excol-4 {
+        width: 100%;
+    }
+
+    #exp-member-account-container-signin {
+        padding: 15px;
+
+        .explara-form-conatiner {
+            min-height: auto;
+            padding: 20px;
+        }
+
+        .explara-form-lt {
+            .content-form {
+                padding: 0;
+            }
+        }
+
+        .forgt-pass {
+            margin-bottom: 20px;
+        }
+    }
+
+    #exp-member-account-container {
+        padding: 15px;
+
+        .explara-form-lt {
+            .content-form {
+                padding: 0;
+            }
+        }
+
+        .explara-form-conatiner {
+            padding: 20px;
+        }
+    }
+
+    #explara_signup_confirm_email_holder {
+        .explara-form-conatiner {
+            padding: 15px;
+        }
+
+        .explara-form-lt {
+            .content-form {
+                padding: 0;
+            }
+        }
+    }
+
+    #explara_fp_request_holder {
+        padding: 15px;
+
+        .explara-form-lt {
+            .content-form {
+                padding: 0;
+            }
+        }
+
+        .explara-form-conatiner {
+            padding: 20px;
+        }
+    }
+
+    .exp-member-account-container_common {
+        .explara-form-rt {
+            min-height: auto;
+        }
+
+        .explara-form-conatiner {
+            min-height: auto;
+        }
+
+        .link {
+            &.new-m {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    #explara_signup_confirm_email_holder {
+        padding: 15px;
+        min-height: auto;
+
+        .link {
+            &.new-m {
+                margin: 20px 0 0;
+            }
+        }
+
+        .explara-form-conatiner {
+            min-height: auto;
+            padding: 15px;
+        }
+    }
+
+    .exp_member_content_block {
+        .panel-body {
+            border: none;
+        }
+    }
+
+    .exp-membership-banner {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .expl-membership-blue-btn {
+        width: 100%;
+    }
+
+    .flex-grid {
+        display: inline-block;
+        width: 100%;
+        min-width: auto;
+        max-width: auto;
+
+        .col {
+            display: block;
+            width: 100%;
+        }
+
+        .nav-tabs > li {
+            width: 100%;
+        }
+    }
+
+    .exp-membership-form-tab .btn {
+        font-size: 9px;
+        padding: 15px;
+        padding-left: 20px;
+        position: relative;
+
+        span {
+            position: absolute;
+            top: 9px;
+            left: 5px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col-sm-6 {
+        width: 100% !important;
+    }
+}

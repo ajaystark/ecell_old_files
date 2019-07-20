@@ -1,0 +1,58 @@
+/* ----------------------------------
+Description: Home Agency style
+Name: demo1.css
+---------------------------------- */
+
+.content-block-8 {
+    background: #F9F9F9
+}
+.content-block-8 .bubble {
+    background: #2e71f2;
+    color: #FFFFFF;
+}
+.content-block-8 .bubble:after {
+    border-color: #2e71f2 transparent;
+}
+.content-block-8 .author {
+    color: #777777
+}
+.content-block-8 .author .name {
+    color: #111111;
+}
+.content-block-8 .subh-basic-light {
+    color: #2e71f2;
+}
+.content-block-8 .feature p {
+    color: #777777
+}
+
+/* clients */
+.clients-1 {
+    background: #e6eefc
+}
+
+/* portfolio style 2 modifications */
+.portfolio-2 {
+    background: #e6eefc;
+}
+.portfolio-2 .grid {
+    margin-top: 0;
+    padding: 0;
+}
+
+/* testimonial */
+.testimonial-1 {
+    background: #222222 url(../../img/bg/bg02.jpg)
+}
+/* Retina background support - use x2 size image background */
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .testimonial-1 {
+        background: #222222 url(../../img/bg/bg02.jpg)
+    }
+}
+.testimonial-1 .position {
+    color: #CCCCCC
+}

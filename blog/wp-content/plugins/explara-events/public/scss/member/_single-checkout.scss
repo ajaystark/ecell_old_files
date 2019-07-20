@@ -1,0 +1,65 @@
+.explara_checkout_steps {
+    font-family: 'Open Sans',sans-serif;
+}
+
+.explara_checkout_holder {
+    .exp_show_element {
+        display: block;
+    }
+
+    .exp_hide_element {
+        display: none;
+    }
+}
+
+.exp_pull_left {
+    float: left;
+}
+
+.exp_pull_right {
+    float: right;
+}
+
+.exp_text_center {
+    text-align: center;
+}
+
+.exp_category_checkout_side {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 25px 15px;
+            min-height: 72px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .exp_active_list {
+        background-color: #eeeeee;
+    }
+}
+
+#explara_checkout_form {
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    select {
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.explara_attendee_form_hr {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+}

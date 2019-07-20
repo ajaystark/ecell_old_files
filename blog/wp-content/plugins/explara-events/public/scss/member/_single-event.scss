@@ -1,0 +1,563 @@
+.explara-event-bg {
+    background-color: #F1F1F1;
+}
+
+.btn-explara-lgreen {
+    display: inline-block;
+    background-color: #00D7B6;
+    color: #FFFFFF;
+    padding: 8px 30px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    transition: all 300ms linear;
+
+    &:hover, &:active, &:focus {
+        background-color: darken(#00D7B6, 5%);
+        color: #FFFFFF;
+    }
+}
+
+.btn-explara-blue {
+    display: inline-block;
+    background-color: #4C7EE4;
+    color: #FFFFFF;
+    padding: 8px 30px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.42857143;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 300ms linear;
+
+    &:hover, &:active, &:focus {
+        background-color: darken(#4C7EE4, 5%);
+        color: #FFFFFF;
+        box-shadow: none;
+    }
+
+    &.btn-rounded {
+        border-radius: 30px;
+
+        &:active {
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        }
+    }
+
+    &:hover, &:active, &:focus {
+        background-color: darken(#4C7EE4, 5%);
+        color: #FFFFFF !important;
+    }
+}
+
+.explara-wht-blk {
+    background-color: #FFFFFF;
+}
+
+.explara-event-single {
+    padding: 20px 0;
+    margin: 50px 0;
+
+    .buy-ticket-form {
+        margin-top: 20px;
+
+        .form-field {
+            width: 70%;
+            position: relative;
+
+            .icon-cal {
+                position: absolute;
+                top: 23%;
+                right: 5%;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.explara-single-event-container {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.explara-event-banner-wrap {
+    background-color: #FFFFFF;
+    margin-bottom: 25px;
+
+    .event-details-rt {
+        padding: 20px 20px 30px 0px;
+
+        .description-list {
+            line-height: 40px;
+            padding-left: 42px;
+            position: relative;
+        }
+
+        .content {
+            font-size: 18px;
+            color: #212121;
+        }
+
+        .icon {
+            width: 22px;
+            height: 22px;
+            margin-right: 16px;
+            font-size: 25px;
+            position: absolute;
+            left: 6px;
+        }
+    }
+}
+
+.explara-event-banner {
+    position: relative;
+    min-height: 530px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    .overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #383256;
+        opacity: 0.5;
+    }
+
+    .expbanner-event-title {
+        position: absolute;
+        top: 10px;
+        left: 25px;
+        color: #FFFFFF;
+    }
+}
+
+.explaraevent-organiser-blk {
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+
+    .organiser-detail {
+        color: #757575;
+        font-size: 18px;
+
+        span {
+            color: #212121;
+            font-weight: bold;
+        }
+    }
+
+    .orgnaiser-location {
+        font-size: 13px;
+        color: #757575;
+        margin-bottom: 0;
+    }
+
+    .social-item {
+        width: 36px;
+        height: 36px;
+        background-color: #efefef;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 35px;
+
+        a {
+            padding: 7px 5px;
+            color: #acacac;
+        }
+    }
+}
+
+////////////////////////////////////////////////////////
+
+/* Style the tab */
+.explara-tab {
+    overflow: hidden;
+    border-bottom: 1px solid #e0dcdc;
+
+    .tablinks {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: #757575;
+        padding: 14px 16px;
+        transition: all 300ms linear;
+        border-bottom: 3px solid transparent;
+
+        &.active {
+            color: #333333;
+            border-bottom: 3px solid #00ad7c;
+        }
+
+        &:hover, &:active, &:focus {
+            color: #212121;
+        }
+    }
+}
+
+.explaraevent-photo-slider {
+    background-color: #FFFFFF;
+    padding: 25px 15px 45px;
+    margin-bottom: 20px;
+
+    .eventpage-card.image-card .image-carousel .carousel-control {
+        width: 36px;
+        height: 48px;
+        background-color: #ffffff;
+        background-image: none;
+        opacity: 0.79;
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        top: calc(50% - 24px);
+
+        span {
+            color: #212121;
+            width: 100%;
+            text-shadow: none;
+        }
+    }
+
+    .item {
+        img {
+            height: 335px;
+            object-fit: cover;
+        }
+    }
+
+    .expheading-slider {
+        color: #757575;
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+
+    .carousel-indicators {
+        bottom: -25px;
+        margin-top: 0;
+        margin-bottom: 0;
+
+        li {
+            width: 8px;
+            height: 8px;
+            background-color: #F1F1F1;
+            margin: 0;
+        }
+
+        li.active {
+            background-color: #4990e2;
+            box-shadow: none;
+        }
+    }
+}
+
+.explaraeventqa-block {
+    background-color: #FFFFFF;
+    padding: 25px 15px;
+    margin-bottom: 20px;
+
+    .dashed-line {
+        border-bottom: 1px dashed #777777;
+        margin: 30px 0;
+    }
+
+    .input-ask {
+        height: 36px;
+        background-color: #ffffff;
+        -webkit-box-shadow: inset 0 1px 1px 0 #aaaaaa;
+        box-shadow: inset 0 1px 1px 0 #aaaaaa;
+        border: solid 1px #efefef;
+        padding: 5px 10px;
+        border-radius: 0;
+    }
+
+    .btn-explara-lgreen {
+        margin-left: 10px;
+    }
+
+    .no-padding {
+        padding: 0;
+    }
+
+    .qalist {
+        margin: 0;
+
+        li {
+            font-size: 14px;
+            color: #757575;
+            line-height: 35px;
+        }
+    }
+
+    .eqaform-wrap {
+        margin-bottom: 60px;
+    }
+
+    .explaraqa-heading {
+        font-size: 14px;
+        color: #757575;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+}
+
+.explaraquestion-container {
+    .question-info {
+        p {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #757575;
+            margin-bottom: 0;
+            margin-bottom: 10px;
+        }
+    }
+
+    .question-name {
+        margin-bottom: 10px;
+    }
+}
+
+.explaraanswer-container {
+    .answer p {
+        font-size: 13px;
+        color: #212121;
+    }
+}
+
+.explaraanswer-container, .explaraquestion-container {
+    .answer-hint p, .question-hint p {
+        font-size: 18px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #212121;
+        margin-bottom: 0;
+        width: 26px;
+        float: left;
+    }
+
+    .answer-detail, .question-detail {
+        margin-left: 40px;
+    }
+}
+
+.tickets {
+    margin: 50px 0;
+}
+
+//Common slide styling
+.explara-dynamic-slide-container {
+    padding: 30px;
+    padding-top: 4vh;
+    margin: 0 auto;
+    margin-top: 10vh;
+    background: #f7f7f7;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    max-width: 460px;
+    width: 100%;
+    z-index: 99;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateX(114%);
+    transition-property: transform;
+    transition-duration: 0.4s;
+    box-shadow: 10px 17px 11px 9px #a7a7a7;
+
+    .close_slide {
+        opacity: 0;
+        display: inline-block;
+        position: absolute;
+        left: -32px;
+        top: 2px;
+        z-index: 99;
+        width: 32px;
+        height: 52px;
+        background-color: #656195;
+        padding: 12px;
+        opacity: 1;
+        color: #ffffff;
+        font-size: 20px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .exp_close {
+        position: absolute;
+        left: -61px;
+        top: 0;
+        display: inline-block;
+        height: 33px;
+        background-color: rgb(219, 67, 68);
+        color: #fff;
+        line-height: 32px;
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        padding: 0 12px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+.dynamic-slide-block {
+    position: relative;
+    height: 86vh;
+
+    .slide-content-section {
+        box-sizing: content-box;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+.explara-dynamic-slide-container.is-visible {
+    transform: translateX(0%);
+}
+
+.payment-msg {
+    text-align: center;
+    margin: 50px 0;
+    height: 300px;
+
+    h2 {
+        font-size: 32px;
+        line-height: 299px;
+        color: #23282d;
+    }
+}
+
+.details {
+    padding: 20px;
+
+    h3 {
+        margin-bottom: 15px;
+    }
+}
+
+.exp_pointer {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+.explara_orders {
+    margin-top: 30px;
+}
+
+.explara_session_date {
+    position: relative;
+
+    #explara_event_session_date {
+        width: 100%;
+        border: 1px solid #dddddd;
+        padding: 5px;
+        border-radius: 6px;
+    }
+
+    span {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+}
+
+.explara_ticket_disabled_btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+.explara_ticket_disabled_btn_default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.explaratabcontent {
+    display: none;
+    padding: 20px;
+    border-top: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    height: 450px;
+    overflow-y: auto;
+
+    p, li {
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+        margin-bottom: 16px;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    h3 {
+        margin-bottom: 15px;
+    }
+}
+
+.explara-tab-wrapper {
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 15px 0;
+    }
+}

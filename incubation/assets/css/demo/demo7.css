@@ -1,0 +1,35 @@
+/* ----------------------------------
+Description: Home Media style
+Name: demo7.css
+---------------------------------- */
+
+/* Hero Header style 4 modifications */
+.hero-header-4 {
+    background: rgba(46, 113, 242, 0.5)
+}
+.hero-header-4 .subtext {
+    color: #d1def5;
+}
+
+/* Content Block 1 modifications */
+.content-block-1 {
+    background: #2e71f2
+}
+.content-block-1 .icon {
+    color: #FFFFFF;
+    font-size: 60px;
+    display: block;
+    margin-bottom: 20px;
+}
+.content-block-1 p {
+    color: #d1def5;
+    font-style: normal !important
+}
+
+/* Portfolio style 1 modifications */
+#portfolio-2 {
+    background: #2e71f2;
+}
+.testimonial-4 {
+    background: #f1f7fa
+}

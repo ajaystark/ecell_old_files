@@ -1,0 +1,49 @@
+/* ----------------------------------
+Description: Home Event style
+Name: demo5.css
+---------------------------------- */
+
+/* Content Block 1 modifications */
+.content-block-1 {
+    background: #111111
+}
+.content-block-1 p {
+    color: #CCCCCC
+}
+
+/* Team style modifications */
+.team-3,
+.team-3 .part.text-part {
+    background: #F9F9F9;
+}
+
+.content-block-1 .timing {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    background: #A7FFEB;
+    color: #020202;
+    padding: 5px 15px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.content-block-1 .by-author {
+    display: block;
+    color: #999999;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+/* Promo 1 modifications */
+.promo-1 {
+    background: #2e71f2
+}
+
+.google-map-section {
+    margin: 0px;
+    padding: 0px;
+}
+.google-map-section #googleMap {
+    margin-top: 0px;
+}

@@ -1,0 +1,35 @@
+{
+    "name": "ExplaraPlugin",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "prod": "gulp --production",
+        "dev": "gulp watch",
+        "gulp": "./node_modules/gulp/bin/gulp.js"
+    },
+    "devDependencies": {
+        "autoprefixer": "^7.2.5",
+        "bootstrap-datepicker": "^1.8.0",
+        "bootstrap-sass": "^3.3.7",
+        "browserify": "^14.5.0",
+        "gulp": "^3.9.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-if": "^2.0.2",
+        "gulp-jshint": "^2.1.0",
+        "gulp-livereload": "^4.0.0",
+        "gulp-postcss": "^7.0.1",
+        "gulp-ruby-sass": "^2.1.1",
+        "gulp-uglify": "^3.0.1",
+        "gulp-uglifyjs": "^0.6.2",
+        "gulp-watch": "^4.3.11",
+        "jquery": "^3.3.1",
+        "jshint": "^2.9.6",
+        "jshint-stylish": "^2.2.1",
+        "randomstring": "^1.1.5",
+        "recursive-readdir-sync": "^1.0.6",
+        "vinyl-buffer": "^1.0.1",
+        "vinyl-source-stream": "^1.1.2"
+    }
+}

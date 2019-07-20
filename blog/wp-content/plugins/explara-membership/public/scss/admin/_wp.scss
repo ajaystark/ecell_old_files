@@ -1,0 +1,83 @@
+.explara-plugin {
+    a {
+        text-decoration: none;
+    }
+
+    .tbox {
+        margin: 20px 0;
+        overflow: auto;
+        position: relative;
+        background-color: #fff;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+
+        .tbox-heading {
+            border-bottom: 1px solid #dddddd;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            padding: 12px 15px;
+        }
+
+        .tbox-body {
+            padding: 15px;
+        }
+
+        .tbox-footer {
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            border-top: 1px solid #ddd;
+            padding: 8px 15px;
+        }
+
+        h3 {
+            margin: 0;
+            display: inline-block;
+        }
+    }
+
+    .pull-left {
+        float: left;
+    }
+
+    .pull-right {
+        float: right;
+    }
+
+    .ttable {
+        display: table;
+        width: 100%;
+        border-collapse: collapse;
+
+        .thead {
+            font-weight: bold;
+            display: table-row;
+            line-height: 25px;
+            font-size: 14px;
+        }
+
+        .trow {
+            display: table-row;
+            border-bottom: 1px solid #fefefe;
+
+            &:last-child {
+                border-bottom: 0px;
+            }
+
+            .tcol {
+                display: table-cell;
+                padding: 5px;
+            }
+        }
+    }
+
+    .tbtn {
+        padding: 5px 10px;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+
+    .tbtn-success {
+        border: 1px solid #5cb85c;
+    }
+}

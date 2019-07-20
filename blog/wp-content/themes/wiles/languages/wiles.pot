@@ -1,0 +1,390 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wiles 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/wiles\n"
+"POT-Creation-Date: 2013-05-28 16:41:49+00:00\n"
+"POT-Revision-Date: Sun Oct 18 2015 20:30:03 GMT+0530 (India Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../404.php:6
+msgid "The Page You Are Looking For Doesn&rsquo;t Exist."
+msgstr ""
+
+#: ../404.php:7
+msgid "We are very sorry for the inconvenience."
+msgstr ""
+
+#: ../404.php:8
+msgid "Perhaps, Try using the search box below."
+msgstr ""
+
+#: ../404.php:10 ../no-results.php:9
+msgid "Or"
+msgstr ""
+
+#: ../404.php:11
+msgid "Go to Homepage"
+msgstr ""
+
+#: ../archive.php:8
+msgid "Posts Categorized:"
+msgstr ""
+
+#: ../archive.php:14
+msgid "Posts Tagged:"
+msgstr ""
+
+#: ../archive.php:22
+msgid "Posts By:"
+msgstr ""
+
+#: ../archive.php:28
+msgid "Daily Archives:"
+msgstr ""
+
+#: ../archive.php:34
+msgid "Monthly Archives:"
+msgstr ""
+
+#: ../archive.php:40
+msgid "Yearly Archives:"
+msgstr ""
+
+#: ../attachment.php:43 ../single.php:19
+msgid "Tags:"
+msgstr ""
+
+#: ../attachment.php:45 ../page.php:17 ../single.php:21 ../template_authors.php:
+#: 34 ../template_fullwidth.php:18 ../functions/theme-functions.php:59 ..
+#: /functions/theme-functions.php:73
+msgid "Edit"
+msgstr ""
+
+#: ../attachment.php:48
+msgid "<< Previous"
+msgstr ""
+
+#: ../attachment.php:49
+msgid "Next >>"
+msgstr ""
+
+#: ../category.php:5
+msgid "Latest Posts Under:"
+msgstr ""
+
+#: ../comments.php:11
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:11 ../inc/post-meta.php:6
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:11 ../inc/post-meta.php:6
+#, php-format
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:16 ../comments.php:26
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:17 ../comments.php:27
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:18 ../comments.php:28
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: ../footer.php:33
+msgid "All Rights Reserved."
+msgstr ""
+
+#: ../footer.php:35
+msgid "Powered by "
+msgstr ""
+
+#: ../footer.php:40
+msgid "Scroll To Top"
+msgstr ""
+
+#: ../functions.php:31
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:32
+msgid "Social Menu"
+msgstr ""
+
+#: ../functions.php:33
+msgid "Footer Menu"
+msgstr ""
+
+#: ../index.php:18 ../loop.php:15 ../search.php:23 ../inc/post-meta.php:4
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../no-results.php:6
+msgid "Oops..! No Results Found."
+msgstr ""
+
+#: ../no-results.php:7
+msgid "Perhaps, Try searching with different keywords."
+msgstr ""
+
+#: ../no-results.php:10
+msgid "Go To Homepage."
+msgstr ""
+
+#: ../page.php:14 ../single.php:15 ../template_authors.php:30 ..
+#: /template_fullwidth.php:15
+msgid "Pages:"
+msgstr ""
+
+#: ../search.php:6
+msgid "Search Results For:"
+msgstr ""
+
+#: ../search.php:23 ../inc/author-bio.php:8
+msgid "By"
+msgstr ""
+
+#: ../searchform.php:2
+msgid "Search form"
+msgstr ""
+
+#: ../sidebar.php:10
+msgid "Please activate some Widgets."
+msgstr ""
+
+#: ../template_authors.php:24
+msgid "View Posts"
+msgstr ""
+
+#: ../admin/settings.php:10
+msgid "Primary Color "
+msgstr ""
+
+#: ../admin/settings.php:12
+msgid "Links Hover Color"
+msgstr ""
+
+#: ../admin/settings.php:14
+msgid "Headings Color"
+msgstr ""
+
+#: ../admin/settings.php:29
+msgid "Site Logo"
+msgstr ""
+
+#: ../admin/settings.php:31
+msgid "Upload a logo to replace the default site name and description in the header"
+msgstr ""
+
+#: ../admin/settings.php:37
+msgid "Site Logo ( Max height - 60px)"
+msgstr ""
+
+#: ../admin/settings.php:50
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../admin/settings.php:51
+msgid "Select Your Sidebar Position."
+msgstr ""
+
+#: ../admin/settings.php:62
+msgid "Display Sidebar on Left or Right"
+msgstr ""
+
+#: ../admin/settings.php:66 ../admin/settings.php:73
+msgid "Right (Default)"
+msgstr ""
+
+#: ../admin/settings.php:67 ../admin/settings.php:74
+msgid "Left"
+msgstr ""
+
+#: ../admin/settings.php:88
+msgid "Social Links"
+msgstr ""
+
+#: ../admin/settings.php:89
+msgid "Add Your Social Links Here."
+msgstr ""
+
+#: ../admin/settings.php:112
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../admin/settings.php:113
+msgid "Add Your Copyright Notes Here."
+msgstr ""
+
+#: ../functions/theme-functions.php:42
+msgid "Untitled"
+msgstr ""
+
+#: ../functions/theme-functions.php:59
+msgid "Pingback:"
+msgstr ""
+
+#: ../functions/theme-functions.php:77
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions/theme-functions.php:103
+msgid "You are here:"
+msgstr ""
+
+#: ../functions/theme-functions.php:107
+msgid "Home"
+msgstr ""
+
+#: ../functions/theme-functions.php:176
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../functions/theme-functions.php:181
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../functions/theme-functions.php:188
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../functions/theme-functions.php:193
+msgid "Not Found"
+msgstr ""
+
+#: ../functions/theme-functions.php:199
+msgid "page "
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. supported by Lato, translate this to 'off'. Do not translate
+#. into your own language.
+#: ../functions/theme-functions.php:248
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. supported by Open Sans, translate this to 'off'. Do not translate
+#. into your own language.
+#: ../functions/theme-functions.php:254
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../functions/theme-functions.php:295
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../functions/widgetize-theme.php:4
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../inc/author-bio.php:15
+msgid "Visit my Website"
+msgstr ""
+
+#: ../inc/paginatelinks.php:22
+#, php-format
+msgid "Page %d of "
+msgstr ""
+
+#: ../inc/post-meta.php:3
+msgid "Updated on "
+msgstr ""
+
+#: ../inc/post-meta.php:4
+msgid "By "
+msgstr ""
+
+#: ../inc/post-meta.php:6
+msgid "Leave a comment"
+msgstr ""
+
+#: ../inc/related-posts.php:25
+msgid "You May Also Like"
+msgstr ""
+
+#: ../inc/widgets/widget-category.php:9
+msgid " - Category Posts"
+msgstr ""
+
+#: ../inc/widgets/widget-category.php:46
+msgid "Category Posts"
+msgstr ""
+
+#: ../inc/widgets/widget-category.php:57
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets/widget-category.php:61
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../inc/widgets/widget-category.php:66
+msgid "Category:"
+msgstr ""
+
+#. Name of the theme
+msgid "Wiles"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://wpdean.com/wiles-wordpress-theme/"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Wiles is a clean minimal and responsive WordPress theme well suited for blog,"
+" magazine, travel, health, business, finance, portfolio, design, art, "
+"photography, personal and any other creative websites. Developed using "
+"Underscores Framework that makes it mobile and tablets friendly. Theme comes "
+"with awesomeicons, social icon integration, author bio, and improved "
+"category widget. Wiles is coded using latest web standards such as HTML5 and "
+"CSS3 and is 100% SEO friendly. It has dozens of Theme Options to change "
+"theme layout, colors, fonts, slider settings and much more. Theme is also "
+"translation and multilingual ready. Wiles is a free WordPress theme with "
+"premium functionality and design. Now theme is optimized to work with "
+"Contact Form 7 and other popular free and premium plugins."
+msgstr ""
+
+#. Author of the theme
+msgid "WPDean.com"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://wpdean.com/"
+msgstr ""

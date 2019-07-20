@@ -1,0 +1,554 @@
+.entry-content a:hover {
+ 
+}
+
+/*explara-light common*/
+a:hover {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+.explara-light-grey-bg {
+    background-color: #F0F0F0;
+}
+
+.explara-light-cm-btn-dimensions {
+    min-width: 120px;
+    max-width: 140px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    height: 36px;
+    line-height: 35px;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+.explara-light-cm-btn-black {
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    box-shadow: none;
+    margin: 0 auto;
+}
+
+.explara-light-cm-btn-black:hover {
+    color: #fff;
+    box-shadow: none;
+}
+
+.explara-light-cm-btn-red {
+    background-color: #9E000E;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.explara-light-cm-btn-brown {
+    background-color: #9D8552;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.explara-light-container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+/*member listing*/
+
+.explara-light-member-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.explara-light-login-page-head-content {
+    text-align: center;
+
+    h1 {
+        font-size: 28px !important;
+        color: #000 !important;
+    }
+
+}
+
+.explara-light-member-section-heading {
+    font-size: 2.125rem;
+    font-weight: 600;
+}
+
+.explara-light-member-card {
+    display: block;
+    border: 1px solid #f2f2f2;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 18px 1px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+    padding-left: 160px;
+    min-height: 150px;
+
+    img {
+        position: absolute;
+        left: 1%;
+        top: 7%;
+        height: 110px;
+        object-fit: cover;
+        width: 130px;
+    }
+
+    .explara-light-member-card-content {
+        h4 {
+            font-size: 21px !important;
+            margin-bottom: 0 !important;
+            font-weight: bolder !important;
+            margin-top: 0 !important;
+            color: #000 !important;
+        }
+
+        p {
+            font-size: 15px !important;
+            line-height: 1.3em !important;
+            margin-top: 5px !important;
+            margin-bottom: 20px !important;
+            color: #82868b !important;
+        }
+    }
+}
+
+
+/*member login*/
+.explara-light-member-login-buttons {
+    margin-bottom: 30px;
+
+    ul {
+        padding-left: 0;
+
+        li {
+            display: inline-block;
+            margin-right: 15px;
+
+            a {
+                min-width: 120px;
+                max-width: 140px;
+                width: 100%;
+                display: inline-block;
+                text-align: center;
+                text-decoration: none;
+                height: 36px;
+                line-height: 35px;
+                border-radius: 3px;
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+/*explara events*/
+.explara-light-events-section {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.explara-light-events-section-heading {
+    font-size: 2.125rem;
+    font-weight: 600;
+}
+
+.explara-light-events-card {
+    position: relative;
+    padding: 13px;
+    padding-left: 160px;
+    min-height: 150px;
+}
+
+.explara-light-events-card img {
+    position: absolute;
+    left: 1%;
+    top: 7%;
+    height: 100px;
+    width: 130px;
+    object-fit: cover;
+    box-shadow: none;
+}
+
+.explara-light-events-list-img {
+    box-shadow: none !important;
+}
+
+.explara-light-events-card-heading {
+    position: relative;
+    min-height: 40px;
+}
+
+.explara-light-events-card-date {
+    background-color: #9d8552;
+    color: #fff;
+    font-weight: bold;
+    left: 0;
+    display: inline-block;
+    padding: 0px 5px;
+    border-radius: 5px;
+
+    p {
+        margin-bottom: 0 !important;
+    }
+}
+
+#explara-light-events-card-content h4 {
+    font-size: 1.3rem;
+    padding-top: 0;
+    text-transform: uppercase;
+}
+
+#explara-light-events-card-content p {
+    font-size: 1.25rem;
+}
+
+/*members page*/
+.explara-light-members-page-banner {
+    position: relative;
+    background-image: url(https://ny.tie.org/wp-content/uploads/2017/08/quote-791953_1920.jpg);
+    background-size: cover;
+    padding: 90px 0;
+    color: #fff;
+    z-index: 10;
+}
+
+.explara-light-members-page-banner .overlay {
+    background-color: rgba(27, 26, 26, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.explara-light-members-page-heading {
+    text-align: center;
+}
+
+.explara-light-members-page-heading h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+
+.explara-light-members-page-members-holder {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.explara-light-members-page-members {
+    padding: 50px 0;
+}
+
+.explara-light-members-page-member-heading h1 {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+}
+
+.explara-light-members-page-members-listing {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.explara-light-members-page-member-card {
+    display: block;
+    border: 1px solid #f2f2f2;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 18px 1px rgba(0, 0, 0, .1);
+
+    img {
+        height: 170px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .explara-light-members-page-member-content {
+        padding: 0 5px;
+        margin-top: 15px;
+
+        h4 {
+            font-size: 21px;
+            margin-bottom: 0;
+            font-weight: bolder;
+            margin-top: 0;
+            color: #000;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.3em;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            color: #82868b;
+        }
+    }
+}
+
+.explara-light-members-page-member-card:hover{
+    box-shadow: 0 0 36px 1px rgba(0, 0, 0, .2);
+}
+
+
+/*events page*/
+.explara-light-events-page-banner {
+    position: relative;
+    background-image: url(https://ny.tie.org/wp-content/uploads/2018/08/1tie.jpg);
+    background-size: cover;
+    padding: 90px 0;
+    color: #fff;
+    z-index: 10;
+}
+
+.explara-light-events-page-banner .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #383256;
+    opacity: 0.5;
+}
+
+.explara-light-events-page-heading {
+    text-align: center;
+
+    h1 {
+        font-size: 3rem !important;
+        font-weight: bold !important;
+        color: #fff !important;
+    }
+}
+
+.explara-light-events-page-events-listing {
+    padding: 20px 0;
+}
+
+/*event page card view*/
+.explara-light-events-card-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#explara-light {
+    .exl-row {
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+
+    .exl-col {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        margin-bottom: 60px;
+    }
+
+    a {
+        display: block;
+        border: 1px solid #f2f2f2;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 0 18px 1px rgba(0, 0, 0, .1);
+    }
+
+    .expl-card-view{
+        min-height: 354px;
+    }
+
+    a:hover {
+        box-shadow: 0 0 36px 1px rgba(0, 0, 0, .2);
+    }
+
+    img {
+        display: block;
+    }
+}
+
+@media (min-width: 600px) {
+    #explara-light {
+        .exl-col {
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 50%;
+            -ms-flex: 0 0 50%; 
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    #explara-light {
+        .exl-col {
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 50%;
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    #explara-light {
+        .exl-col {
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 33.333333%;
+            -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+        }
+    }
+}
+
+.explara-light-card-structure {
+    display: block;
+    border: 1px solid #f2f2f2;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 18px 1px rgba(0, 0, 0, .1);
+}
+
+.explara-light-card-structure:hover{
+    box-shadow: 0 0 36px 1px rgba(0, 0, 0, .2);
+}
+
+
+.explara-light-single-event-card-view img {
+    display: block;
+    margin: 0 auto;
+}
+
+#explara-light-card-view-contents {
+    margin-top: 10px !important;
+    padding: 0 16px !important;
+
+    h4 {
+        font-size: 21px !important;
+        margin-bottom: 0 !important;
+        font-weight: bolder !important;
+        margin-top: 0 !important;
+    }
+
+    p {
+        font-size: 15px !important;
+        line-height: 1.3em !important;
+        margin-top: 5px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+
+
+.explara-light-single-event-card-date {
+    padding: 10px 16px 0 !important;
+
+    p {
+        margin-bottom: 0 !important;
+        color: #fff !important;
+        display: inline-block !important;
+        background-color: #9D884F !important;
+        font-size: 11px !important;
+        line-height: 1em !important;
+        font-weight: bold;
+        color: #fff !important !important;
+        padding: 8px 10px !important;
+        text-align: center !important;
+        border-radius: 5px !important;
+    }
+}
+
+
+/*images*/
+.explara-light-events-list-image {
+    max-width: 230px;
+}
+
+.explara-light-events-card-image {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+@media (max-width: 480px) {
+    .explara-light-events-card {
+        padding-left: 10px;
+    }
+
+    .explara-light-events-card img {
+        position: static;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+}
+
+.explara-light-events-list-view {
+    margin-bottom: 30px;
+
+    h4 {
+        font-size: 21px !important;
+        margin-bottom: 0 !important;
+        font-weight: bolder !important;
+        margin-top: 0 !important;
+    }
+
+    img {
+        min-height: 130px;
+        max-height: 130px;
+    }
+
+    p {
+        font-size: 15px !important;
+        line-height: 1.3em !important;
+        margin-top: 5px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .explara-light-events-card-date {
+        p {
+            margin-bottom: 0;
+            margin-top: 0;
+            color: #fff;
+            display: inline-block;
+            background-color: #9D884F;
+            font-size: 11px;
+            line-height: 1em;
+            font-weight: bold;
+            color: #fff !important;
+            padding: 8px 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    }
+}
+

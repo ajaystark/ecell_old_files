@@ -1,0 +1,269 @@
+.account-container {
+    background-image: url(../img/explara-reg.jpg);
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-position: 0% 30%;
+    position: relative;
+
+    .form-account-header {
+        background-color: rgb(79, 88, 168);
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        height: 58px;
+
+        h2 {
+            font-size: 18px;
+            line-height: 57px;
+        }
+    }
+}
+
+.explara-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px;
+    font-family: 'Poppins', sans-serif;
+
+    .no-padding {
+        padding: 0;
+    }
+
+    &.form-page-width {
+        max-width: 900px;
+    }
+}
+
+.explara-form-conatiner {
+    padding: 25px 40px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px;
+    min-height: 500px;
+}
+
+.explara-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(55, 61, 117, 0.97) 1%, rgba(117, 108, 55, 0.57) 71%);
+    max-width: 1062px;
+    margin: 0 auto;
+}
+
+.explara-form-lt {
+    position: relative;
+
+    h2, p {
+        color: #ffffff;
+    }
+
+    .content-form {
+        padding: 26% 12% 26% 10%;
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 50px;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 300;
+        }
+    }
+}
+
+.explara-form-rt {
+    background-color: #fff;
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    .form-control {
+        height: 42px;
+        box-shadow: none;
+        border-radius: 0;
+        border-color: rgb(200, 200, 200);
+    }
+
+    .btn-explara-lgreen {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: rgb(112, 213, 217);
+        padding: 9px 12px;
+    }
+}
+
+.link {
+    text-align: center;
+    margin: 20px 0;
+
+    a {
+        color: rgb(85, 85, 85);
+        font-size: 13px;
+        transition: all 300ms linear;
+
+        &:hover, &:active, &:focus {
+            text-decoration: none;
+            color: rgb(79, 88, 168);
+        }
+    }
+
+    &.new-m {
+        margin: 270px 0 0;
+    }
+}
+
+.forgt-pass {
+    text-align: right;
+    margin: 20px 0 110px;
+
+    a {
+        color: rgb(79, 88, 168);
+        font-size: 13px;
+        transition: all 300ms linear;
+
+        &:hover, &:active, &:focus {
+            text-decoration: none;
+            color: rgb(85, 85, 85);
+        }
+    }
+}
+
+.resend-link {
+    color: rgb(85, 85, 85);
+    font-size: 13px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+#resp-table {
+    width: 100%;
+    display: table;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom: 30px;
+    border-bottom: none;
+}
+
+#resp-table-caption {
+    display: table-caption;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#resp-table-header {
+    display: table-header-group;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.table-header-cell {
+    display: table-cell;
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 1px solid #dedede;
+}
+
+#resp-table-body {
+    display: table-row-group;
+}
+
+.resp-table-row {
+    display: table-row;
+}
+
+.table-body-cell {
+    display: table-cell;
+    padding: 8px 12px;
+    border-bottom: 1px solid #dedede;
+    font-size: 14px;
+
+    a {
+        color: rgb(0, 115, 170);
+    }
+
+    .explara_order_ticket_cancel {
+        font-size: 13px;
+        font-weight: 600;
+        background-color: #70d5d9;
+        padding: 4px 12px;
+        text-align: center;
+        border-radius: 3px;
+        color: #fff;
+        font-weight: 400;
+        transition: all 300ms linear;
+
+        &:hover, &:active, &:focus {
+            text-decoration: none;
+            background-color: darken(#70d5d9, 15%);
+        }
+    }
+}
+
+#explara_table {
+    table {
+        border: 1px solid rgba(0, 0, 0, 0.075);
+        margin-bottom: 30px;
+        border-bottom: none;
+        width: 100%;
+
+        .explara_order_ticket_cancel {
+            font-size: 13px;
+            font-weight: 600;
+            background-color: #70d5d9;
+            padding: 4px 12px;
+            text-align: center;
+            border-radius: 3px;
+            color: #fff;
+            font-weight: 400;
+            transition: all 300ms linear;
+
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                background-color: darken(#70d5d9, 15%);
+            }
+        }
+
+        td {
+            padding: 10px;
+            text-align: justify;
+            border-bottom: 1px solid #dedede;
+        }
+    }
+
+    thead {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        font-size: 16px;
+
+        tr > th {
+            padding: 10px;
+            text-align: justify;
+            border-bottom: 1px solid #dedede;
+        }
+    }
+
+    tbody {
+        tr > td {
+            padding: 8px 12px;
+            border-bottom: 1px solid #dedede;
+            font-size: 14px;
+
+            a {
+                color: #4C7EE4;
+            }
+        }
+    }
+}

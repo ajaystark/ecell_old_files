@@ -1,0 +1,45 @@
+.list-settings-pages {
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    margin: 0;
+    padding-top: 9px;
+    padding-bottom: 0;
+    line-height: inherit;
+    border-radius: 4px;
+
+    .list-item {
+        display: inline-block;
+        margin: 0;
+        line-height: 38px;
+        background-color: transparent;
+        border: 1px solid #CCCCCC;
+        border-width: 1px 1px 0 1px;
+        border-radius: 2px;
+
+        &:not(:first-child) {
+            margin-left: -4px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 13px 25px;
+            color: #555555;
+            font-size: 14px;
+            font-weight: 600;
+            outline: 0;
+
+            &:hover, &:active, &:focus {
+                box-shadow: none;
+            }
+        }
+
+        &.active {
+            background-color: #dd4344;
+            border-color: #dd4344;
+
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+}

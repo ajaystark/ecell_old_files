@@ -1,0 +1,767 @@
+.expcard-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#list-event-card {
+    font-family: 'Open Sans', sans-serif;
+
+    .e-s-card {
+        display: block;
+        background-color: #fff;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        max-width: 350px;
+        margin: 0 auto 30px;
+        transition: all 300ms linear;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 300ms linear;
+
+        &:hover, &:active, &:focus {
+            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+            transition: .3s all;
+            color: inherit;
+        }
+
+        .e-content {
+            position: relative;
+            padding: 15px 20px;
+            max-width: 100%;
+            height: 140px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+        }
+
+        .expcard-venue {
+            color: #555555;
+            font-size: 16px;
+            padding-bottom: 20px;
+            height: 43px;
+            overflow: hidden;
+        }
+
+        .expdate-day {
+            font-size: 28px;
+            font-weight: 600;
+            color: #222222;
+        }
+
+        .expdate-month {
+            font-size: 14px;
+            color: #009c9a;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .e-card-footer {
+            padding: 15px;
+            border-top: 1px solid rgba(204, 204, 204, 0.5);
+            height: 50px;
+            overflow: hidden;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 300;
+            color: #222222;
+            overflow: hidden;
+            margin-bottom: 10px;
+            text-align: left;
+            line-height: normal;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .add-link {
+            color: #777;
+            font-size: 14px;
+            text-align: right;
+            float: right;
+            cursor: pointer;
+        }
+
+        .e-img-holder {
+            height: 200px;
+            max-width: 350px;
+            background-color: #ddd;
+            overflow: hidden;
+            border-radius: 8px 8px 0 0;
+
+            img {
+                text-indent: -99999px;
+                height: 180px;
+                max-width: 350px;
+            }
+        }
+    }
+
+    .reg-btn {
+        padding: 5px 20px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #3dc6c4;
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+        transition: all 300ms linear;
+
+        &:hover, &:active, &:focus {
+            background-color: darken(#3dc6c4, 15%);
+        }
+
+        &.reg-btn-card {
+            color: #fff;
+            background-color: #3dc6c4;
+        }
+    }
+}
+
+.expdateicon-col {
+    .expfa-cal {
+        color: #db4344;
+        font-size: 16px;
+    }
+
+    p {
+        color: #777777;
+        font-size: 12px;
+        padding-top: 5px;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+.explara_card_custom {
+    padding: 5% 0;
+}
+
+.form-header {
+    background-color: rgb(102, 102, 102);
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    border-radius: 3px 3px 0px 0px;
+    display: block;
+    font-size: 18px;
+
+    &:hover, &:active, &:focus {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    &.header-step {
+        padding: 0px 20px 0px 45px;
+        height: 58px;
+        line-height: 57px;
+        color: #fff;
+        border-radius: 0;
+    }
+
+    &.collapsed {
+        background-color: rgb(255, 255, 255);
+        color: #4f4f4f;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 1px;
+    }
+
+    span {
+        position: absolute;
+        left: 20px;
+        top: 16px;
+        height: 24px;
+        width: 24px;
+        text-align: center;
+        line-height: 23px;
+        font-size: 18px;
+        color: #fff !important;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 14px;
+
+        a {
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
+
+.form-lt {
+    .panel-default > .panel-heading {
+        padding: 0;
+        border: 0;
+        color: #4f4f4f;
+    }
+
+    .panel {
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+    }
+
+    .panel-title {
+        font-weight: 400;
+        font-size: 18px;
+        color: #4f4f4f;
+    }
+
+    h2 {
+        margin: 0;
+
+        a {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    .common-form {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        background-color: #fff;
+
+        .panel-collapse {
+            padding: 20px;
+        }
+
+        h3 {
+            color: rgb(51, 51, 51);
+            font-size: 18px;
+            margin-bottom: 10px;
+            margin: 0;
+        }
+
+        p {
+            color: rgb(85, 85, 85);
+            font-size: 16px;
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+
+            select {
+                height: 26px;
+                border-radius: 5px;
+                border-color: rgb(200, 200, 200);
+                box-shadow: none;
+                background-color: transparent;
+                min-width: 60px;
+            }
+
+            input {
+                background-color: rgb(255, 255, 255);
+                border-color: rgb(200, 200, 200);
+                border-width: 1px;
+                color: rgb(102, 102, 102);
+                height: 30px;
+                box-shadow: none;
+            }
+
+            label {
+                color: rgb(51, 51, 51);
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .explara_attendee_inputs_file {
+                height: 36px;
+            }
+        }
+
+        .explara_attendee_inputs_radio, .explara_attendee_inputs_checkbox, .explara_terms {
+            input {
+                height: auto;
+                width: auto;
+                margin-bottom: 10px;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            label {
+                position: relative;
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .discount-val {
+        span {
+            color: rgb(52, 152, 219);
+            font-size: 14px;
+        }
+    }
+
+    .btn-explara-blue {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .non-member, .member {
+        h4 {
+            color: rgb(85, 85, 85);
+            font-size: 16px;
+            margin: 15px 0 20px;
+            font-weight: 400;
+        }
+
+        h3 {
+            margin: 10px 0;
+        }
+    }
+}
+
+.form-rt {
+    background-color: #fff;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.price-chart {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px;
+    padding: 20px 20px 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 40px;
+    margin-top: 10px;
+
+    hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: rgb(85, 85, 85);
+    }
+
+    .cart {
+        font-size: 28px;
+    }
+}
+
+.price-header {
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    margin: 20px 0 0;
+
+    span {
+        color: rgb(85, 85, 85);
+        font-weight: 500;
+    }
+
+    &.top-header {
+        border-bottom: 1px dashed #C8C8C8;
+        margin: 0;
+        padding-right: 20px;
+    }
+}
+
+.item-price {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    padding-bottom: 8px;
+    position: relative;
+
+    i {
+        position: absolute;
+        right: 0;
+        top: -3px;
+        color: rgb(230, 30, 30);
+        font-size: 22px;
+    }
+}
+
+.final-amount {
+    color: #24303E;
+    font-weight: 700;
+    margin: 15px 0 0;
+
+    span {
+        color: rgb(85, 85, 85);
+        font-size: 20px;
+    }
+}
+
+#explara-top-strip {
+    font-family: 'Open Sans',sans-serif;
+
+    .e-view-card {
+        border-color: rgb(200, 200, 200);
+
+        /* border: 1px solid rgb(200,200,200); */
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        padding: 19px;
+        margin-bottom: 30px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px;
+
+        .explara-event-img {
+            position: relative;
+            min-height: 120px;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+        h2 {
+            color: rgb(51, 51, 51);
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: 400;
+            margin: 0;
+            line-height: 1em;
+            padding-bottom: 10px;
+        }
+
+        h5, h6 {
+            color: rgb(85, 85, 85);
+            font-weight: 300;
+            font-size: 16px;
+            margin: 0;
+            line-height: 1em;
+        }
+
+        h6 {
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 14px;
+        }
+    }
+}
+
+.bg-grey {
+    background-color: rgb(236, 236, 236);
+}
+
+.exp_hide_class {
+    display: none;
+}
+
+.explara_auth_block {
+    margin-bottom: 20px;
+}
+
+.explara_list_event {
+    margin: 30px 0;
+
+    .explara-reg-btn {
+        font-size: 14px;
+        color: #fff;
+        background-color: #3dc6c4;
+        outline: none;
+        border: none;
+        box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+        transition: all 300ms linear;
+        display: inline-block;
+        height: 32px;
+        position: relative;
+        padding-left: 5px;
+        min-width: 120px;
+        text-align: center;
+        line-height: 31px;
+
+        &:hover, &:active, &:focus {
+            background-color: darken(#3dc6c4, 15%);
+        }
+
+        &.reg-btn-card {
+            color: #fff !important;
+            background-color: #3dc6c4 !important;
+        }
+    }
+}
+
+.exp_form {
+    //padding: 15px;
+    margin-bottom: 20px;
+
+    h2 {
+        font-size: 18px;
+    }
+
+    button {
+        outline: none;
+        background-color: transparent;
+        color: #DB4344;
+        font-size: 16px;
+        box-shadow: none;
+        padding: 0 12px;
+    }
+
+    .price_multi {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        color: #52babe !important;
+    }
+}
+
+.header-form-multi {
+    height: 60px;
+    padding: 18px 15px;
+    text-transform: uppercase;
+    border-radius: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.multi_form_header {
+    padding: 15px;
+}
+
+.exp-multi-content_list {
+    padding: 15px;
+}
+
+.rounded-radio {
+    padding-left: 30px;
+    position: relative;
+
+    input[type="radio"] {
+        outline: none;
+        margin-top: 0px;
+        vertical-align: middle;
+        height: 15px;
+        width: 15px;
+        background-color: #ffffff;
+        border: 1px solid #3dc6c4;
+        -webkit-appearance: none;
+        outline: none;
+        -webkit-border-radius: 2px;
+        border-radius: 50%;
+        cursor: pointer;
+        -webkit-transition: all;
+        margin-right: 5px;
+        position: absolute;
+        left: 0;
+        top: 6px;
+    }
+
+    input[type="radio"]:checked {
+        background-color: #ffffff;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        border: 1px solid #3dc6c4;
+        outline: none;
+    }
+
+    input[type="radio"]:checked:before {
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        display: table;
+        width: 9px;
+        height: 9px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        color: #3dc6c4;
+        content: '';
+        background-color: #3dc6c4;
+        outline: none;
+    }
+
+    label {
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        color: #333;
+        opacity: .5;
+    }
+}
+
+.select_attendee {
+    select {
+        width: 60px;
+        height: 30px;
+        padding-left: 5px;
+        color: #333;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+        background-color: transparent;
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+
+.exp_multi_heading {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+    margin-bottom: 20px;
+}
+
+.exp_input {
+    background-color: white !important;
+    border-color: #c8c8c8 !important;
+    border-width: 1px !important;
+    color: #666666 !important;
+    height: 30px !important;
+    box-shadow: none !important;
+}
+
+.exp_event_discount {
+    margin-top: 10px;
+
+    .exp_coupon_wrapper {
+        border: 1px solid rgb(82, 186, 190);
+        display: block;
+        opacity: 1;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 4px;
+        width: 300px;
+
+        input {
+            font-size: .75em;
+            border: none !important;
+            outline: none;
+            height: 100%;
+            float: left;
+            padding: 0 0 0 10px;
+            width: 80%;
+            outline: none;
+            transition: all 300ms linear;
+
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                outline: none;
+                border: none !important;
+            }
+        }
+
+        .btn_apply {
+            text-transform: uppercase;
+            font-size: .8em;
+            background-color: #52babe;
+            float: right;
+            padding: 0 5px;
+            height: 100%;
+            color: #fff;
+            width: 20%;
+            letter-spacing: .5px;
+            cursor: pointer;
+            text-align: center;
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+            outline: none;
+        }
+    }
+}
+
+.exp_payment_checkout {
+    .btn-explara-blue {
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #4C7EE4;
+        color: #fff;
+        height: 36px;
+        line-height: 35px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    #explara-top-strip {
+        .e-view-card {
+            padding-left: 19px;
+
+            img {
+                position: static;
+                margin: 0 auto 20px;
+            }
+        }
+    }
+
+    #buy-ticket-form {
+        text-align: center;
+    }
+
+    .explara-dynamic-slide-container .exp_close {
+        left: 0 !important;
+        top: -31px !important;
+    }
+
+    .explara-payment-container {
+        padding: 20px;
+
+        h2 {
+            font-size: 26px;
+        }
+
+        .explara-social-share a {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.explara_events_shortcode_holder {
+    background-color: #ffffff;
+    width: 100%;
+
+    .e-s-card {
+        margin-top: 30px;
+    }
+}
+
+.strip-card {
+    border-color: rgb(200, 200, 200);
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding: 19px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px;
+
+    .explara-event-img {
+        position: relative;
+        min-height: 120px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    h2 {
+        color: rgb(51, 51, 51);
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        margin: 0;
+        line-height: 1em;
+        padding-bottom: 10px;
+    }
+
+    h5, h6 {
+        color: rgb(85, 85, 85);
+        font-weight: 300;
+        font-size: 16px;
+        margin: 0;
+        line-height: 1em;
+    }
+
+    h6 {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .explara-strip-content {
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+.explara_single_venue {
+    max-height: 300px;
+    overflow: auto;
+}

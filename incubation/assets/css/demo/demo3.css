@@ -1,0 +1,35 @@
+/* ----------------------------------
+Description: Home Classic style
+Name: demo3.css
+---------------------------------- */
+
+/* Content Block style 1 modifications */
+.content-block-1 {
+    background: #F9F9F9
+}
+.content-block-1 p {
+    color: #888888;
+    font-style: normal !important;
+}
+
+/* Content Block style 3 modifications */
+.content-block-3 img {
+    margin-bottom: -150px
+}
+
+/* Price style 1 modifications */
+.price-1 {
+    background: #F9F9F9
+}
+.price-1 .price-table {
+    border-radius: 17px;
+}
+.price-1 .price-table.primary .price {
+    color: #111111
+}
+.price-1 .subtext {
+    color: #777777
+}
+.price-1 .price-table.primary {
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05)
+}

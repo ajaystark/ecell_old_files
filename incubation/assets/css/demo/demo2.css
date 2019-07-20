@@ -1,0 +1,12 @@
+/* ----------------------------------
+Description: Home Business style
+Name: demo2.css
+---------------------------------- */
+
+.promo-1 {
+    background: #222222;
+    border-bottom: solid 1px #555555
+}
+.promo-1 .subh-basic-light {
+    color: #999999
+}

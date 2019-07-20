@@ -1,0 +1,220 @@
+/* ---------------------------------
+One Page Navigation
+ ---------------------------------*/
+
+/* Import font from Google fonts */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+
+.navbar .primary-logo,
+.navbar .secondary-logo {
+    float: left
+}
+.navbar .secondary-logo {
+    display: none
+}
+.navbar .primary-logo.hide-logo {
+    display: none;
+}
+.navbar .secondary-logo.show-logo {
+    display: block;
+}
+.navbar-toggle {
+    padding: 15px 15px 5px 15px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 0px;
+    line-height: 28px;
+}
+.navbar-toggle .ti-menu {
+    font-size: 24px;
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .35s ease-in-out, padding .35s ease-in-out;
+        -moz-transition: background .35s ease-in-out, padding .35s ease-in-out;
+        transition: background .35s ease-in-out, padding .35s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+} 
+.navbar-default {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.navbar-default .navbar-header .navbar-brand,
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    margin-top: 15px;
+    padding: 0px 0px 0px 8px;
+}
+.navbar-default .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;	
+}
+.navbar-default .nav > li > a:before {
+	content:"";
+	margin-bottom:0.135em;
+	display:inline-block;
+        right: 12px;
+        width: 5px;
+        height: 5px;
+		margin-right:5px;
+        background:transparent;
+        border-radius: 50%;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+} 
+@media (min-width: 768px) {
+    .navbar-default {
+        background-color: transparent;
+        border-color: rgba(0, 0, 0, 0);
+    }
+    .navbar-collapse {
+        float: right;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-default .nav {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+}
+
+/* black navigation bar */
+.navbar-black {
+    background: rgba(17, 17, 17, 1);
+}
+.navbar-black .navbar-toggle {
+    background: #333333;
+}
+.navbar-black .navbar-toggle .ti-menu {
+    color: #FFFFFF;
+}
+.navbar-black .nav > li > a,
+.navbar-black .nav > li > a:focus {
+    color: #DDDDDD;
+}
+.navbar-black .nav > li > a:hover,
+.navbar-black .nav > li > a:focus:hover {
+    color: #FFFFFF;
+}
+.navbar-black .nav > li.active > a,
+.navbar-black .nav > li.active > a:focus {
+    color: #FFFFFF !important;
+    background-color: transparent;
+}
+.navbar-black .nav > li.active > a:before,
+.navbar-black .nav > li.active > a:focus:before {
+    background: #FFFFFF;
+}
+.navbar-black .nav > li.active > a:hover,
+.navbar-black .nav > li.active > a:focus:hover {
+    background-color: transparent;
+}
+@media (min-width: 767px) {
+    .navbar-black {
+        background: rgba(17, 17, 17, 0);
+    }
+    .navbar-black.top-nav-collapse {
+		box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.5);
+    }	
+    .navbar-black .nav > li > a,
+    .navbar-black .nav > li > a:focus {
+        color: #DDDDDD;
+    }
+    .navbar-black .nav > li > a:hover,
+    .navbar-black .nav > li > a:focus:hover {
+        color: #FFFFFF;
+    }
+    .navbar-black.affix {
+        background-color: #111111;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-black .nav > li > a,
+    .navbar-black .nav > li > a:focus {
+        border-bottom: solid 1px #333333;
+    }
+    .navbar-black {
+		box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.5);
+    }		
+}
+
+/* white navigation bar */
+.navbar-white {
+    background: rgba(255, 255, 255, 1);
+}
+.navbar-white .navbar-toggle {
+    background: #DDDDDD;
+}
+.navbar-white .navbar-toggle .fa-bars {
+    color: #111111;
+}
+.navbar-white .nav > li > a,
+.navbar-white .nav > li > a:focus {
+    color: #222222;
+}
+.navbar-white .nav > li > a:hover,
+.navbar-white .nav > li > a:focus:hover {
+    color: #2e71f2;
+}
+.navbar-white .nav > li.active > a,
+.navbar-white .nav > li.active > a:focus {
+    color: #2e71f2 !important;
+    background-color: transparent;
+}
+.navbar-white .nav > li.active > a:before,
+.navbar-white .nav > li.active > a:focus:before {
+    background:#2e71f2;
+}
+.navbar-white .nav > li.active > a:hover,
+.navbar-white .nav > li.active > a:focus:hover {
+    background-color: transparent;
+}
+@media (min-width: 767px) {
+    .navbar-white {
+        background: rgba(255, 255, 255, 0);
+    }
+    .navbar-white.top-nav-collapse {
+		box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.07);
+    }		
+    .navbar-white .nav > li > a,
+    .navbar-white .nav > li > a:focus {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .navbar-white .nav > li > a:hover,
+    .navbar-white .nav > li > a:focus:hover {
+        color: rgba(0, 0, 0, 1);
+    }
+    .navbar-white.affix {
+        background-color: white;
+        border-color: rgba(34, 34, 34, 0.05);
+    }
+}
+@media (max-width: 768px) {
+    .navbar-white .nav > li > a,
+    .navbar-white .nav > li > a:focus {
+        border-bottom: solid 1px #EEEEEE;
+    }
+    .navbar-white {
+		box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.07);
+    }			
+}

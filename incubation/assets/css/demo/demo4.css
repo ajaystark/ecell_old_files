@@ -1,0 +1,103 @@
+/* ----------------------------------
+Description: Home Corporate style
+Name: demo4.css
+---------------------------------- */
+
+/* Content Block style 12 modifications */
+.content-block-12 {
+    background: #111111
+}
+.content-block-12 p {
+    color: #999999
+}
+.content-block-12 .icon {
+    background: #333333;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: solid 2px #333333;
+    border-radius: 0px;
+}
+.content-block-12 .feature:hover .icon {
+    background: #856cd4;
+    border: solid 2px #856cd4;
+    color: #FFFFFF;
+    box-shadow: none;
+}
+.content-block-12 .subh-basic-dark {
+    color: #FFFFFF
+}
+
+/* Price style 2 modifications */
+.price-2 {
+    background: #222222
+}
+.price-2 .subtext {
+    color: #CCCCCC
+}
+.price-2 .table-wrapper,
+.price-2 .table-wrapper.primary {
+    border: solid 1px #444444;
+    background: #111111
+}
+.price-2 .table-first,
+.price-2 .table-last {
+    border-radius: 0px
+}
+.price-2 .price {
+    color: #FFFFFF
+}
+.price-2 .plan,
+.price-2 .table-wrapper.primary .plan {
+    color: #CCCCCC;
+}
+.price-2 .features {
+    border-top: solid 1px #444444;
+}
+.price-2 .features li {
+    color: #FFFFFF
+}
+.price-2 .features li span {
+    color: #7FE393;
+}
+.price-2 .table-wrapper.primary .bttn {
+    border: solid 2px #856cd4;
+    background: #856cd4;
+    color: #FFFFFF
+}
+.price-2 .bttn {
+    background: #333333;
+    border: solid 2px #333333;
+    color: #FFFFFF;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.price-2 .bttn:hover {
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #111111
+}
+
+/* Content Block style 15 modifications */
+.content-block-15 .part1 {
+    background: #e1bc67 url(../../img/bg/bg011.jpg);
+}
+/* Retina background support - use x2 size image background */
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .content-block-15 .part1 {
+        background: #e1bc67 url(../../img/bg/bg011.jpg);
+    }
+}
+.content-block-15 .part2 {
+    background: #111111
+}
+.content-block-15 .bttn {
+    background: #333333;
+    color: #FFFFFF;
+}
+.content-block-15 .bttn:hover {
+    background: #856cd4;
+    color: #FFFFFF;
+}

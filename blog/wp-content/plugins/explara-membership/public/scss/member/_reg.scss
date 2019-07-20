@@ -1,0 +1,656 @@
+#exp-member-account-container {
+    background-image: url(../img/exp_membership_signin_bg.jpg);
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 537px;
+    padding: 40px;
+
+    .form-account-header {
+        background-color: rgb(79, 88, 168);
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        height: 58px;
+    }
+
+    .explara-form-conatiner {
+        padding: 25px 50px;
+        background-color: #fff;
+        min-height: 537px;
+        border-radius: 3px;
+
+        h2 {
+            line-height: normal;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.88);
+            font-size: 17px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+
+        .expl-membership-blue-btn {
+            margin-top: 20px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .explara-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .explara-form-lt {
+        position: relative;
+
+        h2, p {
+            color: #ffffff;
+        }
+
+        .content-form {
+            padding: 26% 12% 26% 10%;
+
+            h2 {
+                line-height: 64px;
+                font-variant: normal;
+                color: rgb(255, 255, 255);
+                font-size: 44px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .explara-form-rt {
+        min-height: 537px;
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+    }
+
+    .link {
+        text-align: center;
+        margin: 20px 0;
+
+        a {
+            color: rgba(0, 0, 0, 0.58);
+            font-size: 15px;
+
+            span {
+                color: #4a90e2;
+            }
+
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                color: rgb(79, 88, 168);
+            }
+        }
+
+        &.new-m {
+            margin: 270px 0 0;
+        }
+    }
+
+    .forgt-pass {
+        text-align: right;
+        margin: 20px 0 110px;
+
+        a {
+            color: rgba(0, 0, 0, 0.4);
+            font-size: 13px;
+            transition: all 300ms linear;
+
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                color: rgb(85, 85, 85);
+            }
+        }
+    }
+
+    .resend-link {
+        color: rgb(85, 85, 85);
+        font-size: 13px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+.exp-member-account-container_common {
+    background-image: url(../img/exp_membership_signin_bg.jpg);
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 537px;
+    padding: 40px;
+
+    .form-account-header {
+        background-color: rgb(79, 88, 168);
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        height: 58px;
+    }
+
+    .explara-form-conatiner {
+        padding: 25px 50px;
+        background-color: #fff;
+        min-height: 537px;
+        border-radius: 3px;
+
+        h2 {
+            line-height: normal;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.88);
+            font-size: 17px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+
+        .expl-membership-blue-btn {
+            margin-top: 20px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .explara-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .explara-form-lt {
+        position: relative;
+
+        h2, p {
+            color: #ffffff;
+        }
+
+        .content-form {
+            padding: 26% 12% 26% 10%;
+
+            h2 {
+                line-height: 64px;
+                font-variant: normal;
+                color: rgb(255, 255, 255);
+                font-size: 44px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .explara-form-rt {
+        min-height: 537px;
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+    }
+
+    .link {
+        text-align: center;
+        margin: 20px 0;
+
+        a {
+            color: rgba(0, 0, 0, 0.58);
+            font-size: 15px;
+
+            span {
+                color: #4a90e2;
+            }
+
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                color: rgb(79, 88, 168);
+            }
+        }
+
+        &.new-m {
+            margin: 270px 0 0;
+        }
+    }
+
+    .forgt-pass {
+        text-align: right;
+        margin: 20px 0 110px;
+
+        a {
+            color: rgba(0, 0, 0, 0.4);
+            font-size: 13px;
+            transition: all 300ms linear;
+
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                color: rgb(85, 85, 85);
+            }
+        }
+    }
+
+    .resend-link {
+        color: rgb(85, 85, 85);
+        font-size: 13px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+#explara_signup_confirm_email_holder {
+    background-image: url(../img/exp_membership_signin_bg.jpg);
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 537px;
+    padding: 40px;
+
+    .form-account-header {
+        background-color: rgb(79, 88, 168);
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        height: 58px;
+    }
+
+    .explara-form-conatiner {
+        padding: 25px 50px;
+        background-color: #fff;
+        min-height: 537px;
+        border-radius: 3px;
+
+        h2 {
+            line-height: normal;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.88);
+            font-size: 17px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+
+        .expl-membership-blue-btn {
+            margin-top: 20px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .explara-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .explara-form-lt {
+        position: relative;
+
+        h2, p {
+            color: #ffffff;
+        }
+
+        .content-form {
+            padding: 26% 12% 26% 10%;
+
+            h2 {
+                line-height: 64px;
+                font-variant: normal;
+                color: rgb(255, 255, 255);
+                font-size: 44px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .explara-form-rt {
+        min-height: 537px;
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+    }
+
+    .link {
+        text-align: center;
+        margin: 20px 0;
+
+        a {
+            color: rgba(0, 0, 0, 0.58);
+            font-size: 15px;
+
+            span {
+                color: #4a90e2;
+            }
+
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                color: rgb(79, 88, 168);
+            }
+        }
+
+        &.new-m {
+            margin: 270px 0 0;
+        }
+    }
+
+    .forgt-pass {
+        text-align: right;
+        margin: 20px 0 110px;
+
+        a {
+            color: rgba(0, 0, 0, 0.4);
+            font-size: 13px;
+            transition: all 300ms linear;
+
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                color: rgb(85, 85, 85);
+            }
+        }
+    }
+
+    .resend-link {
+        color: rgb(85, 85, 85);
+        font-size: 13px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+#exp-member-account-container-signin {
+    background-image: url(../img/exp_membership_signin_bg.jpg);
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 537px;
+    padding: 40px;
+
+    .form-account-header {
+        background-color: rgb(79, 88, 168);
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        height: 58px;
+    }
+
+    .explara-form-conatiner {
+        padding: 25px 50px;
+        background-color: #fff;
+        min-height: 537px;
+        border-radius: 3px;
+
+        h2 {
+            line-height: normal;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.88);
+            font-size: 17px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+
+        .expl-membership-blue-btn {
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+
+    .explara-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .explara-form-lt {
+        position: relative;
+
+        h2, p {
+            color: #ffffff;
+        }
+
+        .content-form {
+            padding: 26% 12% 26% 10%;
+
+            h2 {
+                line-height: 64px;
+                font-variant: normal;
+                color: rgb(255, 255, 255);
+                font-size: 44px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .explara-form-rt {
+        min-height: 537px;
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+    }
+
+    .link {
+        text-align: center;
+        margin: 20px 0;
+
+        a {
+            color: rgba(0, 0, 0, 0.58);
+            font-size: 15px;
+
+            span {
+                color: #4a90e2;
+            }
+
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                color: rgb(79, 88, 168);
+            }
+        }
+
+        &.new-m {
+            margin: 270px 0 0;
+        }
+    }
+
+    .forgt-pass {
+        text-align: right;
+        margin: 20px 0 110px;
+
+        a {
+            color: rgba(0, 0, 0, 0.4);
+            font-size: 13px;
+            transition: all 300ms linear;
+
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                color: rgb(85, 85, 85);
+            }
+        }
+    }
+
+    .resend-link {
+        color: rgb(85, 85, 85);
+        font-size: 13px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+#resp-table {
+    width: 100%;
+    display: table;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom: 30px;
+    border-bottom: none;
+}
+
+#resp-table-caption {
+    display: table-caption;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#resp-table-header {
+    display: table-header-group;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.table-header-cell {
+    display: table-cell;
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 1px solid #dedede;
+}
+
+#resp-table-body {
+    display: table-row-group;
+}
+
+.resp-table-row {
+    display: table-row;
+}
+
+.table-body-cell {
+    display: table-cell;
+    padding: 8px 12px;
+    border-bottom: 1px solid #dedede;
+    font-size: 14px;
+
+    a {
+        color: rgb(0, 115, 170);
+    }
+
+    .explara_order_ticket_cancel {
+        font-size: 13px;
+        font-weight: 600;
+        background-color: #70d5d9;
+        padding: 4px 12px;
+        text-align: center;
+        border-radius: 3px;
+        color: #fff;
+        font-weight: 400;
+        transition: all 300ms linear;
+
+        &:hover, &:active, &:focus {
+            text-decoration: none;
+            background-color: darken(#70d5d9, 15%);
+        }
+    }
+}
+
+.explara_table_membership {
+    table {
+        border: 1px solid #f2f2f2;
+        margin-bottom: 30px;
+        border-bottom: none;
+        width: 100%;
+        background-color: #fff;
+
+        thead {
+            background-color: #fff;
+        }
+
+        .explara_order_ticket_cancel {
+            font-size: 13px;
+            font-weight: 600;
+            background-color: #70d5d9;
+            padding: 4px 12px;
+            text-align: center;
+            border-radius: 3px;
+            color: #fff;
+            font-weight: 400;
+            transition: all 300ms linear;
+
+            &:hover, &:active, &:focus {
+                text-decoration: none;
+                background-color: darken(#70d5d9, 15%);
+            }
+        }
+
+        td {
+            padding: 10px;
+            text-align: justify;
+            border-bottom: 1px solid #f2f2f2;
+        }
+    }
+
+    thead {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        font-size: 16px;
+
+        tr > th {
+            padding: 10px;
+            text-align: justify;
+            border-bottom: 1px solid #f2f2f2;
+            color: rgba(0, 0, 0, 0.52);
+            font-size: 15px;
+        }
+    }
+
+    tbody {
+        tr > td {
+            padding: 15px 12px;
+            border-bottom: 1px solid #f2f2f2;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.76);
+            font-size: 14px;
+
+            a {
+                color: #4C7EE4;
+            }
+        }
+    }
+}
+
+.exp_group_padding_btn {
+    min-width: 192px !important;
+}

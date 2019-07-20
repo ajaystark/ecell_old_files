@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<head>
+<title>ECell IIITD</title>
+<link href="bootstrap.css" rel="stylesheet" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" >
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71835302-13', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Work+Sans:400,700" rel="stylesheet">
+<style>
+h2,h3{
+	font-family: 'Work Sans';
+	font-weight: 700;
+}-
+section.ecell-head{
+	background: url('ecell-cover.jpg');
+	background-size: cover;
+	min-height: 250px;
+	text-align: center;
+}
+section.ecell-about, section.ecell-map > div#map{
+	min-height: 250px;
+}
+
+a.ecell-btn{
+	font-family: 'Open Sans';
+	padding:10px 20px;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	width:200px;
+	font-size:12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 48px;
+	font-weight: 700;
+
+	cursor:pointer;
+	background:#0072c6;
+	color:#fff;
+}
+a.ecell-btn:hover{
+	text-decoration: none;
+	color:#0072c6;
+	background:#fff;
+	cursor:pointer;
+	border:2px solid #0072c6;
+}
+section.ecell-updates{
+  margin-top: 30px;
+
+	background:#fff;
+}
+
+section.ecell-updates div.row > div:nth-child(1){
+	
+
+
+
+background: #ECE9E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+	min-height: 470px;
+	color:#111; 
+}
+section.ecell-updates div.row > div:nth-child(3){
+	color:#3b5998;
+	min-height: 450px;
+}
+section.ecell-footer{
+	padding:10px;
+	font-family: 'Open Sans';
+	font-size:12px;
+}
+section.ecell-contact{
+	background: #333;
+	min-height: 250px;
+	text-align: center;
+	color:#eee;
+	font-family: 'Open Sans';
+	letter-spacing: 0.5px;
+	line-height: 
+}
+div.content > p{
+	font-family: 'Open Sans';
+	font-size:16px;
+	line-height: 150%;
+}
+div.content{
+	padding:30px;
+}
+div.footer ul li {
+	font-family: 'Open Sans';
+	list-style-type: none;
+}
+div.footer ul li a{
+	color:#eee;
+}
+div.footer ul{
+	padding:0px;
+}
+section.testinomial{
+background: #4776E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+min-height: 150px;
+
+}
+div.ecell-initiatives{
+	margin-bottom: 50px;
+}
+div.ecell-initiatives div.title{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-top:10px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+div.ecell-initiatives p.desc{
+	font-family: 'Open Sans';
+	font-size:14px;
+	line-height: 150%;
+}
+div.ecell-initiatives div.card{
+	padding:20px;
+	margin-top: 20px;
+}
+img.img-team{
+  height:250px;
+  border-radius: 100%;
+}
+img.img-team-s{
+  height:170px;
+  margin-top:20px;
+  border-radius: 100%;
+}
+p.grey{
+  color:#444;
+}
+div.card2{
+  height: 250px;
+}
+</style>
+<body>
+
+ <center><a class="ecell-btn" href="#" >Join Now</a></center>
+<section class="ecell-head">
+	<center><img src="ecell-white.png" style="height:150px;margin-top:50px;"/></center>
+</section>
+
+<div style="background: #fff">
+<br>
+<br>
+<br>
+<div class="container-fluid">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#initiatives">Initiatives</a></li>
+        <li><a href="/i3c/#startups">Startups</a></li>
+        <li><a href="#-">Events</a></li>
+        <!-- <li><a href="/team.html">Team</a></li> -->
+        <li><a href="/i3c">Incubation Center</a></li>
+        <!--<li><a href="#">Archives</a></li>-->
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/associates.html">Associates</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.facebook.com/ecell.iiitd" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/iiitdecell" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+
+<div class="container ecell-initiatives" id="initiatives">
+<center><h2>Initiatives</h2></center>
+	<div class="row" style="text-align: center;">
+		<div class="col-md-4 card">
+		<img src="img/teamwork-1.png">
+			<div class="title">Startup Fair</div>
+			<p class="desc">
+				Startup fair is an Initiative by IIIT-Delhi to connect the startups with the talent they are looking for. 
+			</p>
+			<a class="ecell-btn" href="https://www.iiitd.ac.in/placement/startup17" >More</a>
+		</div>
+		<div class="col-md-4 card">
+		<img src="img/calculator.png">
+			<div class="title">Stock market</div>
+			<p class="desc">Test your trading skills in our 2-day, fast-paced, action-packed online game. Learn to deduce the effects of news and events on stock market and share prices in a risk-free environment and win.</p>
+			<a class="ecell-btn" href="#" >More</a>
+		</div>
+		<div class="col-md-4 card">
+		<img src="img/rocket-ship.png">
+			<div class="title">Innovate Delhi</div>
+			<p class="desc">A 6-week long annual bootcamp program by IIIT-Delhi. It is a model for funding early stage startups where we are inviting angel investors and venture capitalists to invest in 10 selected startups.
+				
+			</p>
+			<a class="ecell-btn" href="https://innovatedelhi.iiitd.edu.in/" target="_blank">More</a>
+		</div>
+		<div class="col-md-4 card">
+			<img src="img/enactus.png" style="border:2px solid #0072c6;border-radius: 100%">
+			<div class="title">Social Initiatives</div>
+			<p class="desc">A community of student, academic and business leaders committed to using the power of entrepreneurial action to transform lives and shape a better more sustainable world.</p>
+			<a class="ecell-btn" href="#" >More</a>
+		</div>
+		<div class="col-md-4 card">
+		<img src="img/analytics.png">
+			<div class="title">B-Plan Competition</div>
+			<p class="desc">It provides a platform for potential ideas and early stage startups to evaluate their plan in the risk-free environment of a competition.</p>
+			<a class="ecell-btn" href="#" >More</a>
+		</div>
+		<div class="col-md-4 card">
+		<img src="img/light-bulb.png">
+			<div class="title">Startupathon</div>
+			<p class="desc">Go Big with from your potential Idea to a startup. A two days event where we build a startup from Idea to USP</p>
+			<a class="ecell-btn" href="#" >More</a>
+		</div>
+	</div>
+</div>
+
+<section class="ecell-about">
+	<div class="row">
+		<div class="col-md-6" style="background:url('about.jpg');background-size:cover;height: 550px;"></div>
+		<div class="col-md-6" style="border:0px solid #ccc;background:#fafafa;height: 550px">
+			
+			<div class="content">
+				<h2>ECell, IIIT-Delhi</h2>
+				<p>The Entrepreneurship cell of IIIT-Delhi is a group consisting of the students of IIIT-Delhi committed to fostering the entrepreneurial spirit among the students. It gives a platform in terms of seed-funding, incubation, mentoring, training, knowledge dissemination and best practice research to convert path breaking business ideas into self-sustaining business ventures.</p>
+
+<p>The Entrepreneurship cell of IIIT-Delhi is passionately committed to promote entrepreneurial spirit among each and every individual of this nation.</p>
+	
+	<p><br><br><a href="/i3c/#startups" class="ecell-btn">Startups at IIITD</a>
+	</p>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!--
+<div class="container-fluid">
+	<div class="row" style="text-align: center;">
+		<div class="col-md-3">Creativity</div>
+		<div class="col-md-3">Learning</div>
+		<div class="col-md-3">Leadership </div>
+		<div class="col-md-3">Innovation</div>
+	</div>
+</div>
+-->
+<section class="ecell-updates" style="display: none">
+<div class="col-md-3 card2"  style="background: #3b5998"></div>
+<div class="col-md-3 card2"  style="background: skyblue"></div>
+<div class="col-md-3 card2"  style="background: red"></div>
+<div class="col-md-3 card2"  style="background: blue"></div>
+</section>
+<br>
+<br>
+<section class="ecell-team">
+  <center><h2>Team Members</h2></center>
+  <br><br><br>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+             <center>
+             <img src="img/teams/hemant.jpg" class="img-team" />
+            <h3><a href="http://www.iiitd.edu.in/~hemant">Hemant Kumar</a></h3>
+            <p class="grey">Faculty Coordinator</p>
+            </center>
+          </div>
+          <div class="col-md-4">
+            <center><img src="img/teams/chetan.jpg" class="img-team" />
+            <h3><a href="http://www.iiitd.edu.in/~chetan">Chetan Arora</a></h3>
+            <p class="grey">Faculty Coordinator</p>
+            </center>
+          </div>
+          <div class="col-md-4">
+             <center><img src="img/teams/anikhil.jpg" class="img-team" />
+             <h3>Alok Nikhil</h3>
+            <p class="grey">Incubation Head</p>
+             </center>
+          </div>
+      </div>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<!-- <section class="ecell-team">
+  <center><h2>Student Members</h2></center>
+  <br><br><br>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3">
+             <center>
+             <img src="img/teams/s/prikanshit.jpg" class="img-team-s" />
+            <h3><a href="http://home.iiitd.edu.in/~prikankshit13073/">Prikankshit Mor</a></h3>
+            <p class="grey">Team Member</p>
+            </center>
+          </div>
+          <div class="col-md-3">
+            <center><img src="img/teams/s/mridul.jpg" class="img-team-s" />
+            <h3><a href="http://home.iiitd.edu.in/~mridul15149/">Mridul Sharma</a></h3>
+            <p class="grey">Team Member</p>
+            </center>
+          </div>
+
+<div class="col-md-3">
+             <center><img src="img/teams/s/ritika.jpg" class="img-team-s" />
+             <h3><a href="http://home.iiitd.edu.in/~ritika16105/">Ritika Jain</a></h3>
+            <p class="grey">Team Member</p>
+             </center>
+          </div>
+
+          <div class="col-md-3">
+             <center><img src="img/teams/s/ashutosh.jpg" class="img-team-s" />
+             <h3><a href="http://home.iiitd.edu.in/~ashutosh15018/">Ashutosh Kumar</a></h3>
+            <p class="grey">Team Member</p>
+             </center>
+          </div>
+              <div class="col-md-3">
+             <center><img src="img/teams/s/ashutoshnandan.jpg" class="img-team-s" />
+             <h3><a href="http://home.iiitd.edu.in/~ashutosh14024/">Ashutosh Nandan</a></h3>
+            <p class="grey">Team Member</p>
+             </center>
+          </div>
+
+            <div class="col-md-3">
+             <center><img src="img/teams/s/manish.jpg" class="img-team-s" />
+             <h3><a href="http://home.iiitd.edu.in/~manish14146/">Manish Kumar</a></h3>
+            <p class="grey">Team Member</p>
+             </center>
+          </div>
+
+
+
+
+                    <div class="col-md-3">
+             <center><img src="img/teams/s/saksham.jpg" class="img-team-s" />
+             <h3><a href="http://home.iiitd.edu.in/~saksham16186/">Saksham Gupta</a></h3>
+            <p class="grey">Team Member</p>
+             </center>
+          </div>
+
+<div class="col-md-3">
+             <center><img src="img/teams/s/sunny.jpg" class="img-team-s" />
+             <h3><a href="http://home.iiitd.edu.in/~sunny16270/">Sunny Kumar</a></h3>
+            <p class="grey">Team Member</p>
+             </center>
+          </div>
+
+          <div class="col-md-3">
+             <center><img src="img/teams/s/gyanesh.jpg" class="img-team-s" />
+             <h3><a href="http://home.iiitd.edu.in/~gyanesh16039/">Gyanesh Anand</a></h3>
+            <p class="grey">Team Member</p>
+             </center>
+          </div>
+
+
+
+
+          </div>
+      </div>
+  </div>
+</section>
+ -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</div>
+
+
+<section class="testinomial">
+<div style="text-align: center;font-family: 'Open Sans';font-weight:300;font-size:30px;color:#eee;padding-top:50px;">"Whether you think you can or think you can't. You are right." - Henry Ford</div>
+</section>
+
+<div class="footer">
+<section class="ecell-contact" id="contact">
+	<div class="row">
+	<div class="col-md-3" style="text-align: left;padding-left:40px;">
+		<h3>Contact</h3>
+		Incubation Center,<br>IIIT-Delhi, Okhla phase 3,<br> New Delhi - 71
+		<ul>
+			<li>Email: ecell@iiitd.ac.in</li>
+		</ul>
+		<a class="ecell-btn" href="https://goo.gl/maps/gCg2ADhnef72" taget="_blank">Navigate</a>
+	</div>
+	<div class="col-md-3" style="text-align: left">
+		<h3>IIITD Corner</h3>
+		<ul>
+			<li><a href="https://goo.gl/forms/vYsq7T1O0hwyzUcc2">Submit your Idea</a></li>
+			<li><a href="https://goo.gl/forms/bcvhL5ERQDCaMFbi2">Submit your Startup</a></li>
+      <li><a href="#" target="_blank">Webcast</a> </li>
+      <li><a href="https://iiitd.ac.in/" target="_blank">IIIT-Delhi</a> </li>
+		</ul>
+	</div>
+	<div class="col-md-3" style="text-align: left">
+		<h3>Partner with Us</h3>
+		<ul>
+      <li><a href="https://goo.gl/forms/louDe90jTxtbRozM2">Become Campus Ambassador</a></li>
+			<li><a href="https://goo.gl/forms/louDe90jTxtbRozM2">Become a Associate</a></li>
+
+		</ul>
+	</div>
+	
+	<div class="col-md-3">
+
+ <div id="map" style="height:250px;width: 100%;"></div>
+    <script>
+      var map;
+      function initMap() {
+        // Create the map with no initial style specified.
+        // It therefore has default styling.
+
+        var myLatLng = {lat: 28.5945158, lng: 77.2924271};
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          zoom: 13,
+          mapTypeControl: false
+        });
+
+        var marker = new google.maps.Marker({
+          map: map,
+          position: myLatLng,
+          title: 'Incubation Center, IIIT-Delhi'
+        });
+
+
+        // Add a style-selector control to the map.
+        var styleControl = document.getElementById('style-selector-control');
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(styleControl);
+
+        // Set the map's style to the initial value of the selector.
+        var styleSelector = document.getElementById('style-selector');
+        //map.setOptions({styles: styles['silver']});
+
+     
+      }
+
+      var styles = {
+        default: null,
+        silver: [
+          {
+            elementType: 'geometry',
+            stylers: [{color: '#f5f5f5'}]
+          },
+          {
+            elementType: 'labels.icon',
+            stylers: [{visibility: 'off'}]
+          },
+          {
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#616161'}]
+          },
+          {
+            elementType: 'labels.text.stroke',
+            stylers: [{color: '#f5f5f5'}]
+          },
+          {
+            featureType: 'administrative.land_parcel',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#bdbdbd'}]
+          },
+          {
+            featureType: 'poi',
+            elementType: 'geometry',
+            stylers: [{color: '#eeeeee'}]
+          },
+          {
+            featureType: 'poi',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#757575'}]
+          },
+          {
+            featureType: 'poi.park',
+            elementType: 'geometry',
+            stylers: [{color: '#e5e5e5'}]
+          },
+          {
+            featureType: 'poi.park',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#9e9e9e'}]
+          },
+          {
+            featureType: 'road',
+            elementType: 'geometry',
+            stylers: [{color: '#ffffff'}]
+          },
+          {
+            featureType: 'road.arterial',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#757575'}]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'geometry',
+            stylers: [{color: '#dadada'}]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#616161'}]
+          },
+          {
+            featureType: 'road.local',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#9e9e9e'}]
+          },
+          {
+            featureType: 'transit.line',
+            elementType: 'geometry',
+            stylers: [{color: '#e5e5e5'}]
+          },
+          {
+            featureType: 'transit.station',
+            elementType: 'geometry',
+            stylers: [{color: '#eeeeee'}]
+          },
+          {
+            featureType: 'water',
+            elementType: 'geometry',
+            stylers: [{color: '#c9c9c9'}]
+          },
+          {
+            featureType: 'water',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#9e9e9e'}]
+          }
+        ]
+      };
+
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBE-WEUKld0xjblM_UDpRYI3PWwoocEgf4&callback=initMap"
+        async defer></script>
+
+	</div>
+
+
+	</div>
+	</div>
+	</center>
+</section>
+<section class="ecell-footer">
+	<p class="credits"> Designed & Maintained By <A href="http://iiitd.me/ashutosh15018">Ashutosh Kumar</A></p>
+</section>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<!--
+Mission:
+
+To create a sustainable and diverse entrepreneurial ecosystem where the young and the elderly come together to take entrepreneurship a step ahead in India.
+
+-->
+

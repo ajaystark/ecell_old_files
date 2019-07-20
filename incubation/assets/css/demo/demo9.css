@@ -1,0 +1,29 @@
+/* ----------------------------------
+Description: Home Parallax style
+Name: demo9.css
+---------------------------------- */
+
+/* Content Block style 17 modifications */
+.content-block-17 {
+    background: url(../../img/bg/bg015.jpg)
+}
+/* Retina background support - use x2 size image background */
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .content-block-17 {
+        background: url(../../img/bg/bg015.jpg)
+    }
+}
+
+/* Content Block style 3 modifications */
+.content-block-3 {
+    background: #333333
+}
+.content-block-3 p {
+    color: #CCCCCC
+}
+.content-block-3 img {
+    margin-bottom: -150px
+}
